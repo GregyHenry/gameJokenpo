@@ -1,0 +1,109 @@
+* {
+  font-family: helvetica neue, helvetica, sans-serif;
+  font-weight: 400;
+  cursor: default;
+}
+
+#mainGame {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#title {
+  text-align: center;
+  color: #2d3436;
+}
+
+#scoreBoard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#message {
+  background-color: #636e72;
+  border-radius: 5px;
+  text-align: center;
+  margin: 20px 0;
+  padding: 20px;
+  font-size: 24px;
+  color: #fff;
+}
+
+#player,
+#computer {
+  position: relative;
+  flex-grow: 1;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+#player h2,
+#computer h2 {
+  margin: 0;
+  padding: 0;
+}
+
+#player-points,
+#computer-points {
+  position: absolute;
+  top: 8px;
+  font-size: 52px;
+}
+
+#player-points {
+  right: 20px;
+}
+
+#player-name,
+#computer-name {
+  font-size: 24px;
+}
+
+#computer-name {
+  text-align: right;
+}
+
+#player {
+  background-color: #ff7675;
+}
+
+#player-choose,
+#computer-choose {
+  list-style: none;
+  margin: 30px 0 0 0;
+  padding: 0;
+  text-align: center;
+}
+
+#player-choose li,
+#computer-choose li {
+  display: inline;
+  padding: 0 15px;
+}
+#player-choose a,
+#computer-choose a {
+  text-decoration: none;
+  opacity: 0.2;
+}
+
+#player-choose a:hover,
+#player-choose a.selectChoose,
+#computer-choose a.selectChoose {
+  text-decoration: none;
+  opacity: 1;
+}
+
+#player-choose img,
+#computer-choose img {
+  max-width: 80px;
+}
+
+#computer {
+  background-color: #3498db;
+}
+
+#versus {
+  font-size: 80px;
+  padding: 0 40px;
+}

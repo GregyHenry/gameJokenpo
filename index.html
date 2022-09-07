@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Jokenpô</title>
+</head>
+
+<body>
+  <div id="mainGame">
+    <h1 id="title">Pedra, Papel e Tesoura</h1>
+
+    <div id="scoreBoard">
+
+      <div id="player">
+        <h2 id="player-name"></h2>
+        <span id="player-points">0</span>
+        <ul id="player-choose">
+
+          <li>
+            <a href="#" id="player-choose-1">
+              <img src="assets/img/pedra.png" alt="imagem mão simulando uma pedra">
+            </a>
+          </li>
+
+          <li>
+            <a href="#" id="player-choose-2">
+              <img src="assets/img/papel.png" alt="imagem mão simulando papel">
+            </a>
+          </li>
+
+          <li>
+            <a href="#" id="player-choose-3">
+              <img src="assets/img/tesoura.png" alt="imagem mão simulando uma tesoura">
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+      <div id="versus">
+        VS
+      </div>
+
+      <div id="computer">
+        <h2 id="computer-name">Computador</h2>
+        <span id="computer-points">0</span>
+        <ul id="computer-choose">
+
+          <li>
+            <a href="#" id="computer-choose-1">
+              <img src="assets/img/pedra.png" alt="imagem mão simulando uma pedra">
+            </a>
+          </li>
+
+          <li>
+            <a href="#" id="computer-choose-2">
+              <img src="assets/img/papel.png" alt="imagem mão simulando papel">
+            </a>
+          </li>
+
+          <li>
+            <a href="#" id="computer-choose-3">
+              <img src="assets/img/tesoura.png" alt="imagem mão simulando uma tesoura">
+            </a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+
+    <div id="message"></div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
