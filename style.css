@@ -107,3 +107,42 @@
   font-size: 80px;
   padding: 0 40px;
 }
+
+@media screen and (min-width: 350px) and (max-width: 750px) {
+  #mainGame {
+    width: 350px;
+    margin: 0 auto;
+  }
+
+  #player-choose img,
+  #computer-choose img {
+    max-width: 30px;
+  }
+
+  #versus {
+    font-size: 30px;
+    padding: 0 40px;
+  }
+
+  #player-points,
+  #computer-points {
+    position: relative;
+    top: 12px;
+    left: 43%;
+    font-size: 22px;
+  }
+
+  #player-name,
+  #computer-name {
+    font-size: 14px;
+  }
+  #message {
+    background-color: #636e72;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
+    font-size: 14px;
+    color: #fff;
+  }
+}
